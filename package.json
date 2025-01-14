@@ -1,0 +1,45 @@
+{
+  "name": "vscode-data-by-variable",
+  "version": "1.0.0",
+  "description": "VSCode data by variable extension",
+  "main": "out/extension.js",
+  "scripts": {
+    "build": "tsc --skipLibCheck -p .",
+    "watch": "tsc -watch -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sladeshka/vscode-data-by-variable"
+  },
+  "keywords": [
+    "DataByVariable",
+    "VSCode"
+  ],
+  "author": "sladeshka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sladeshka/vscode-data-by-variable/issues"
+  },
+  "homepage": "https://github.com/sladeshka/vscode-data-by-variable#readme",
+  "devDependencies": {
+    "@types/node": "^20.12.8",
+    "@types/vscode": "^1.89.0",
+    "typescript": "^3.9.10"
+  },
+  "publisher": "sladeshka",
+  "displayName": "Data by variable",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.85.1"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "pretty-print-json": "^3.0.1"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "*"
+  ]
+}

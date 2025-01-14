@@ -1,0 +1,26 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "strict": false,
+    "module": "commonjs",
+    "target": "ES5",
+    "removeComments": true,
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "rootDir": "src",
+    "outDir": "out",
+    "types": [],
+    "typeRoots": [
+      "/node_modules/"
+    ],
+    "lib": [
+      "ES5",
+      "DOM",
+      "ES2015"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
